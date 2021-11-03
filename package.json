@@ -1,0 +1,43 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-block-scoping": "^7.15.3",
+    "@babel/plugin-transform-strict-mode": "^7.14.5",
+    "@babel/preset-env": "^7.16.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "2",
+    "css-loader": "^5.1.1",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.4.0",
+    "husky": "^7.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "prettier": "^2.4.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"이것은 커밋전에 출력\""
+    }
+  }
+}
